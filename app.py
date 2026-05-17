@@ -22,7 +22,7 @@ import os
 import sys
 
 # Ensure src is importable
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__)))
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__)'..'))
 
 from src.data_provider import NepseDataProvider, ALL_NEPSE_SYMBOLS, ALL_SYMBOLS_FLAT
 from src.strategies import StrategyEngine
