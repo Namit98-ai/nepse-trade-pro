@@ -1,0 +1,20 @@
+# Secrets — NEVER commit these
+.env
+*.pyc
+__pycache__/
+
+# Data & logs (can be large)
+data/
+logs/
+
+# Python virtual environment
+venv/
+.venv/
+env/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Streamlit cache
+.streamlit/
